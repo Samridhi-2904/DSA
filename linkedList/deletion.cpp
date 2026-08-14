@@ -60,7 +60,7 @@ int main()
     insertAtHead(head,40);
     cout << node1->data << endl;
     cout << node1->next << endl;
-    cout<<"before Deletion"<<endl;
+    cout<<"Before Deletion"<<endl;
     printNode(head);
     cout<<endl<<"After Deletion"<<endl;
     deleteNode(1, head);
